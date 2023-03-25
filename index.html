@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<title>Frontend Mentor | Results summary component</title>
+	</head>
+	<body>
+		<!-- All scores (overall, reaction, memory, verbal, visual) are set in script.js -->
+		<main>
+			<div class="result">
+				<h3>Your Result</h3>
+				<div class="circle">
+					<h1 class="overall-score"></h1>
+					<p>of 100</p>
+				</div>
+				<h2>Great</h2>
+				<p>
+					You scored higher than 65% of the people who have taken these tests.
+				</p>
+			</div>
+			<div class="summary">
+				<h3>Summary</h3>
+				<div class="stat" data-type="reaction">
+					<p class="stat-title">Reaction</p>
+					<p class="score"></p>
+				</div>
+				<div class="stat" data-type="memory">
+					<p class="stat-title">Memory</p>
+					<p class="score"></p>
+				</div>
+				<div class="stat" data-type="verbal">
+					<p class="stat-title">Verbal</p>
+					<p class="score"></p>
+				</div>
+				<div class="stat" data-type="visual">
+					<p class="stat-title">Visual</p>
+					<p class="score"></p>
+				</div>
+				<a class="btn-continue">Continue</a>
+			</div>
+		</main>
+	</body>
+</html>
