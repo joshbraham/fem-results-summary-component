@@ -2,7 +2,7 @@
 
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
 
-**Live Site URL: [Add live site URL here](https://your-live-site-url.com)**
+[Hosted with Netlify](https://jbhm-results-summary-component.netlify.app/) (Click for in-browser solution)
 
 ## Overview
 
